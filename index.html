@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="d-flex justify-content-between py-4 align-items-center">
+            <div class="navLogo ">
+                <a class="d-flex align-items-center text-decoration-none" href="index.html">
+                    <img src="images/logo.png" alt="website logo">
+                    <div class="logoCaption ps-2">
+                        <h3 class="fw-bolder mb-1">Weather</h3>
+                        <p class="opacity-75">tagline goes here</p>
+                    </div>
+                </a>
+            </div>
+            <div class="navLinks w-75">
+                <ul class="d-flex justify-content-end mb-0">
+                    <li  ><a class="active" href="#home">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Live Cameras</a></li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="navBars d-none">
+                    <i class="fa-solid text-white fs-3 justify-content-start fa-bars"></i>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </header>
+    <section class="position-relative">
+    <div class="backgroundImage d-flex justify-content-center align-items-center">
+        <section class="w-100">
+            <div class="container">
+            <div class="searchArea">
+                <input type="text" placeholder="Find your location..." class="inputStyle input-group" id="searcInput">
+                <button class="btnStyle" id="findBtn">Find</button>
+            </div>
+            </div>
+        </section>
+    </div>
+
+        <!--  -->
+        <section class="weatherSection">
+            <div class="container">
+                <div class="row weatherArea">
+                    
+
+
+            </div>
+            </div>
+        </section>
+    </section>
+
+        <!--  -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                <div class="subArea col-md-8 position-relative">
+                    <input type="text" placeholder="Enter your email to subscribe..." class="inputStyle input-group" id="subscribeEmail">
+                    <button class="btnStyle" id="subBtn">Subscribe</button>
+                </div>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center socialIcons">
+                        <i class="fa-brands mx-1 fa-fw fa-2xl fa-facebook"><a href="#"></a></i>
+                        <i class="fa-brands mx-1 fa-fw fa-2xl fa-twitter"><a href="#"></a></i>
+                        <i class="fa-brands mx-1 fa-fw fa-2xl fa-google-plus"><a href="#"></a></i>
+                        <i class="fa-brands mx-1 fa-fw fa-2xl fa-pinterest"><a href="#"></a></i>
+                </div>
+            </div>
+                <p class="mt-4 text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+            <div class="testo"></div>
+        </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

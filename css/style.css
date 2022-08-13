@@ -1,0 +1,196 @@
+.active{
+    border-color:#0199D7 !important;
+    color: #0199D7 !important;
+    border-radius: 30px;
+}
+.logoCaption h3 {
+    color: #F0FFFF;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.logoCaption p {
+    color: #F0FFFF;
+    font-size: .65rem;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-top: .5rem;
+    background-color: #1E202B;
+}
+.navLinks li{
+    list-style: none;
+    margin: 0 .15rem;
+}
+.navLinks li:hover a{
+    border-color: #0199D7 ;
+    color: #0199D7 !important;
+    border-radius: 30px;
+}
+.navLinks li a{
+    text-decoration: none;
+    color: #F0FFFF;
+    padding: .15rem 1.25rem;
+    border: 2px solid transparent;
+}
+.navLinks ul li{
+    padding: .15rem;
+}
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    .navLinks li{
+     display: none;
+    }
+    .navLinks{
+    display: flex;
+    justify-content: end;
+    }
+    .navBars{
+    display: flex !important;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: .15rem 1.25rem;
+
+    }
+    .navBars:hover{
+    border-color: #0199D7 ;
+    }
+    
+}
+
+.backgroundImage{
+    background: url(../images/banner.png);
+    background-size: cover;
+    min-height: 350px;
+}
+.searchArea{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.inputStyle{
+    padding: 1rem;
+    border-radius: 2rem;
+    outline-style: none;
+    border: none;
+    background: #1E202B;
+    color: white;
+}
+.btnStyle{
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    right: 3px;
+    background-color: #009AD8;
+    color: white;
+    padding: .75rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+.weatherSection{
+    background: #1E202B;
+    min-height: 400px;
+    padding: 2rem;
+}
+.weatherArea{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+}
+.alldays{
+    background: #323544;
+    color: #BFC1C8;
+}
+.headDate{
+    background: #2D303D;
+    padding: .5rem 1rem .5rem;
+}
+.headDate p {
+    margin-bottom: 0;
+}
+.weatherContent{
+    background: #323544;
+    padding: 2rem 1rem .5rem;
+    border-radius: 4px;
+    height: 310px;
+}
+.weatherContent h4{
+    margin-bottom: 0.5rem;
+}
+.weatherContent h5{
+    font-size: .85rem;
+    margin-top: .5rem;
+    margin-bottom: .45rem;
+    color: #009AD8;
+}
+.dayNightDegree .degree{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+.midStyle{
+    background: #262936;
+}
+.headMidStyle{
+    background: #222531;
+}
+.hDate{
+    text-align: center;
+}
+.specialDegree{
+    font-size: 1.75rem;
+    color: white;
+    font-weight: bolder;
+}
+
+footer{
+    background: #323544;
+    padding: 3.5rem 1rem;
+
+}
+#subBtn{
+    right: 15px;
+    padding: 0.75rem 1rem;
+}
+.socialIcons i{
+    cursor: pointer;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.socialIcons i:hover{
+    color: #009AD8;
+}
+.forecastIcons img{
+    width: 90px;
+}
+@media screen and (min-width: 992px) {
+    .dayNightDegree .degree{
+        font-size: 3.5rem;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .weatherContent{
+        height: 250px;
+    }
+    .dayNightDegree .degree{
+        margin-bottom: 0;
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 776px) {
+
+    .weatherArea{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+}
